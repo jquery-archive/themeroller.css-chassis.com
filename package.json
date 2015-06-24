@@ -1,0 +1,36 @@
+{
+	"name": "Themeroller",
+	"private": true,
+	"version": "0.0.0",
+	"description": "This project is a themeroller for css-chassis",
+	"main": "index.js",
+	"scripts": {
+		"test": "grunt",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jquery/themeroller.css-chassis.com"
+	},
+	"keywords": [
+		"Themeroller",
+		"css-chassis"
+	],
+	"author": "jQuery foundation and other contributors",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jquery/themeroller.css-chassis.com/issues"
+	},
+	"dependencies": {
+		"express": "4.13.0"
+	},
+	"devDependencies": {
+		"grunt": "0.4.5",
+		"grunt-contrib-jshint": "0.11.2",
+		"grunt-html": "4.0.3",
+		"grunt-jscs": "1.8.0"
+	},
+	"config": {
+		"port": 3000
+	}
+}
